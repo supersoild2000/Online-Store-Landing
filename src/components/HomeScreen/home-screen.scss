@@ -1,0 +1,97 @@
+@import "./Header/header.scss";
+
+.home-screen {
+  background-color: #fffad9;
+  position: relative;
+  min-height: 100vh;
+  align-items: center;
+  padding: 2em 4em;
+  position: relative;
+  @media (max-width: 900px) {
+    font-size: 0.75em;
+    padding: 2em;
+  }
+}
+
+.split-container {
+  position: absolute;
+  width: calc(100% - 24em);
+  height: calc(100% - 32em);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 0;
+  @media (orientation: portrait) {
+    flex-direction: column;
+    width: calc(100% - 4em);
+  }
+}
+
+.title-family {
+  img {
+    width: 50rem;
+    @media (max-width: 1700px) {
+      width: 45rem;
+    }
+    @media (max-width: 1500px) {
+      width: 40rem;
+    }
+    @media (max-height: 900px) {
+      width: 35rem;
+    }
+    @media (max-height: 700px) {
+      width: 25rem;
+    }
+    @media (max-height: 600px) {
+      width: 20rem;
+    }
+    @media (max-height: 500px) {
+      width: 15rem;
+    }
+    @media (max-height: 400px) {
+      width: 10rem;
+    }
+    @media (max-height: 300px) {
+      width: 7rem;
+    }
+    @media (max-height: 200px) {
+      width: 3rem;
+    }
+    @media (max-height: 400), (orientation: portrait){
+        width: 20rem;
+    }
+    @media (max-height: 300), (orientation: portrait){
+        width: 15rem;
+    }
+  }
+}
+
+.home-screen-text-block {
+  font-size: 2rem;
+  font-family: CenturyGothic;
+  @media (max-width: 2000px) {
+    font-size: 1.5em;
+  }
+  @media (max-width: 1100px) {
+    font-size: 1em;
+  }
+  @media (orientation: portrait) {
+    flex-direction: column;
+  }
+  @media (max-height: 400){
+    font-size: 0.25rem;
+}
+  h1 {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    white-space: nowrap;
+    margin: 1rem 0;
+    @media (max-width: 2000px) {
+      white-space: normal;
+    }
+  }
+}

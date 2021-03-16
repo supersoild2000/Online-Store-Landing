@@ -1,10 +1,28 @@
-*,
-*::before,
-*::after{
-    box-sizing: border-box;
+@import "./components/HomeScreen/home-screen.scss";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700&display=swap");
+@font-face{
+    font-family: CenturyGothic;
+    src: url('./fonts/CenturyGothic.woff');
 }
 
-body, h1, h2, h3, p{
-    margin: 0;
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
-  
+
+hmtl {
+  font-size: 16px;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
