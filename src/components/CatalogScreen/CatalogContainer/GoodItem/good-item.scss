@@ -1,0 +1,43 @@
+.good-item {
+  flex: 1;
+  background-color: #B0B9FF;
+  height: ato;
+  width: 150px;
+  display: block;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 1em;
+  font-size: 0.5em;
+  text-align: center;
+  img {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 8px;
+  }
+  div {
+    display: flex;
+    margin-top: 1em;
+    justify-content: space-between;
+    flex-direction: row;
+    button {
+      background-color: #58a87e;
+      border: none;
+      padding: 0.5em;
+      font-size: 1em;
+      color: white;
+      outline: none;
+      border-radius: 1em;
+      border: 1px solid transparent;
+      &:hover,
+      &:active {
+        background-color: #47976d;
+      }
+      &:active {
+        border: 1px solid black;
+        border-radius: 1em;
+      }
+    }
+  }
+}

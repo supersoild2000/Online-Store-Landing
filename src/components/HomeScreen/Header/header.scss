@@ -20,7 +20,7 @@ header {
       margin: 1em 0;
     }
     li > a {
-      color: black;
+      color: #FFFDD0;
       text-decoration: none;
       font-family: "Fira Sans", sans-serif;
       font-size: 1.5em;
@@ -72,9 +72,4 @@ header {
   }
 }
 
-.ul-clear {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
+
