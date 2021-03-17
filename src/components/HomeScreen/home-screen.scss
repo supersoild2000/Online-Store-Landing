@@ -1,19 +1,12 @@
 @import "./Header/header.scss";
 
-.home-screen {
-  background-color: #fffad9;
-  position: relative;
-  min-height: 100vh;
-  align-items: center;
-  padding: 2em 4em;
-  position: relative;
-  @media (max-width: 900px) {
-    font-size: 0.75em;
-    padding: 2em;
-  }
+.home-bg-color{
+  background-color: #B0B9FF;
+  border-radius: 0% 0% 0% 30% / 0% 0% 0% 80% ;
 }
 
 .split-container {
+  color: #FFFDD0;
   position: absolute;
   width: calc(100% - 24em);
   height: calc(100% - 32em);
@@ -23,7 +16,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 0;
   @media (orientation: portrait) {
     flex-direction: column;
     width: calc(100% - 4em);

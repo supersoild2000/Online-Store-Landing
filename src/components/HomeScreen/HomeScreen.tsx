@@ -3,7 +3,7 @@ import { Header } from "./Header/Header";
 
 export default function HomeScreen() {
   return (
-    <section className="home-screen">
+    <section className="screen home-bg-color">
       <Header />
       <div className="split-container">
         <div className='home-screen-text-block'>
